@@ -10,34 +10,44 @@
 * All code should be test-driven and committed.
 
 ## Getting Started
+
 * Download git.
   * [Windows](https://git-scm.com/download/win)
 * Download the project stub bundles for your language of choice.
   * [Java](https://github.com/cahcommercial/fuse-kata/raw/master/java_audition.bundle)
   * [JavaScript](https://github.com/cahcommercial/fuse-kata/raw/master/javascript_audition.bundle)
   * [.NET](https://github.com/cahcommercial/fuse-kata/raw/master/net_audition.bundle)
+  * [.NET Core](https://github.com/cahcommercial/fuse-kata/raw/master/dotnet_core_audition.bundle)
   * [T-SQL/SSIS](https://github.com/cahcommercial/fuse-kata/raw/master/sql_audition.bundle) (Kata included in bundle.)
   * [Python](https://github.com/cahcommercial/fuse-kata/raw/master/python_audition.bundle)
 * Save the java_audition.bundle and javascript_audition.bundle to your system. These files are compressed git 
   repositories of empty project shells.
   * [Detailed instructions on how to use git bundles](https://git-scm.com/book/en/v2/Git-Tools-Bundling).
 * After the files are saved, extract them with git with the following command(s):
+
   ```bash
   git clone java_audition.bundle -b master [candidates_name]_java_audition
   ```
+
   Example:
+
   ```bash
   git clone java_audition.bundle -b master roncarpenter_java_audition
   ```
+
 * Complete the katas. Commit your changes as you develop.
 * When completed, create a new bundle with the implemented kata:
+
   ```bash
   git bundle create [candidates_name]_java_audition.bundle master
   ```
+
   Example:
+
   ```bash
   git bundle verify roncarpenter_java_audition.bundle
   ```
+  
 * Choose a Kata below, and implement the requirements to the best of your ability.
 * Commit your code to the repository.
 * Bundle your Kata.
