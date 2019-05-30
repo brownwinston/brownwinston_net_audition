@@ -17,6 +17,7 @@
   * [Java](https://github.com/cahcommercial/fuse-kata/raw/master/java_audition.bundle)
   * [JavaScript](https://github.com/cahcommercial/fuse-kata/raw/master/javascript_audition.bundle)
   * [.NET](https://github.com/cahcommercial/fuse-kata/raw/master/net_audition.bundle)
+  * [.NET Core](https://github.com/cahcommercial/fuse-kata/raw/master/dotnet_core_audition.bundle)
   * [T-SQL/SSIS](https://github.com/cahcommercial/fuse-kata/raw/master/sql_audition.bundle) (Kata included in bundle.)
   * [Python](https://github.com/cahcommercial/fuse-kata/raw/master/python_audition.bundle)
 * Save the java_audition.bundle and javascript_audition.bundle to your system. These files are compressed git 
